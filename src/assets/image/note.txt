@@ -1,0 +1,15 @@
+homepage
+property
+login,register
+dashboard user
+dashboard admin
+porfile agency
+package
+cart
+
+
+--------------
+search map
+compare
+payment
+
