@@ -3,4 +3,28 @@
 
 <form>
   <input type="number"/>
+  <select class="block appearance-none text-gray-600 w-full bg-white border hover:border-gray-500 px-3 py-3 pr-8 rounded shadow-sm leading-tight focus:outline-none focus:shadow-outline"
+                    [(ngModel)]="value1.id" name="code" (change)="modelChange($event)">
+
+
+    <option *ngFor="let item of Categories" [value]="item.id">
+        {{ item.name }} <!--Country-->
+    </option>
+    
+
+</select>
+
+
+<select class="block appearance-none text-gray-600 w-full bg-white border hover:border-gray-500 px-3 py-3 pr-8 rounded shadow-sm leading-tight focus:outline-none focus:shadow-outline"
+                    [(ngModel)]="value2.id" name="code" (change)="modelChange2($event)">
+
+
+    <option *ngFor="let item of Location " [value]="item.id">
+        {{ item.name }} <!--Country-->
+    </option>
+    
+
+</select>
+
+
 </form>

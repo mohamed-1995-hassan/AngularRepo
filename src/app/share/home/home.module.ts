@@ -6,7 +6,7 @@ import { SearchFilterComponent } from './components/search-filter/search-filter.
 
 @NgModule({
   declarations: [
-    SearchFilterComponent
+    //SearchFilterComponent
   ],
   imports: [
     CommonModule
