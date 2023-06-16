@@ -4,7 +4,7 @@ export class Property {
         public Title:String,
         public PropertyType:any,
         public Description:String,
-        public PropertyPrice:String,
+        public PropertyPrice:number,
         public Photo:Array<String>,
         public City:String,
         public Governorate:String,
